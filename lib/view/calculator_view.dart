@@ -70,8 +70,7 @@ class CalculatorScreen extends StatelessWidget {
                           buildRow(['sin', 'cos', 'tan', '√'], controller),
                         if (controller.isScientific.value)
                           buildRow(['exp', 'π', 'log', 'ln'], controller),
-                       // buildRow(['(','.',')', 'x'], controller),
-                        // Added button for decimal point
+                       
                       ],
                     ),
                   ),
@@ -122,7 +121,7 @@ class CalculatorScreen extends StatelessWidget {
                     value == '9' ||
                     value == '0'
                     ? Colors.white
-                    : Colors.orangeAccent, // Changing color for 'x', '(' and ')'
+                    : Colors.orangeAccent,
               ),
             ),
           ),
