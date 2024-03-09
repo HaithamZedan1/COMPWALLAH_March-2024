@@ -104,7 +104,7 @@ class CalculatorScreen extends StatelessWidget {
             child: Text(
               value,
               style: TextStyle(
-                fontSize: value == 'x' ? 24 : 36, // Adjusting font size for 'x'
+                fontSize: value == 'x' ? 24 : 36, 
                 color: value == 'X'
                     ? Colors.red
                     : value == '(' ||
